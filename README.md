@@ -4,7 +4,7 @@
 **A polished, responsive Flutter Web quiz application** — built for the EvolvEd Ventures / Floreo technical assessment.
 
 
-### 🔗 **Live Demo → https://rashin123786.github.io/quiz_app/ 
+### 🔗 **Live Demo → https://rashin123786.github.io/quiz_app/
 
 
 ---
@@ -33,11 +33,11 @@ Floreo Quiz presents multiple-choice questions, **locks each answer once selecte
 
 | Concern | Package |
 |---|---|
-| 🧠 State management : `Bloc`
-| 💾 Local storage : `shared preference`
-| 💉 Dependency injection: `get_it`
-| 🧭 Routing : `Go Router`
-| ⚖️ Value equality : `equatable`
+| 🧠 State management | `flutter_bloc` / `bloc` |
+| 💾 Local storage | `shared_preferences` |
+| 💉 Dependency injection | `get_it` |
+| 🧭 Routing | `go_router` |
+| ⚖️ Value equality | `equatable` |
 
 ---
 
@@ -126,6 +126,12 @@ flutter build web
 
 Production output lands in `build/web/`, deployable to any static host (GitHub Pages, Firebase Hosting, Netlify, Vercel, etc.).
 
+### 🧪 Running Tests
+
+```bash
+flutter test
+```
+
 ---
 
 ## ☁️ Deployment
@@ -151,6 +157,6 @@ The build output is pushed to the `gh-pages` branch and served from there. ✅
 
 ## 👤 Author
 
-Submitted by Rashin.k for the Flutter Web Technical Assessment — EvolvEd Ventures · Floreo
+Submitted by **Rashin.k** for the Flutter Web Technical Assessment — EvolvEd Ventures · Floreo
 
 </div>
